@@ -10,6 +10,10 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!-- 引入自定义的 api 通用包，可以使用Payment支付Entity -->
         <dependency>
             <groupId>com.wjw.springcloud</groupId>

@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -96,7 +97,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.2.2.RELEASE</version> <!-- 不加版本号会给出警告 -->
                 <configuration>
-                    <!-- <fork>true</fork> 如果没有该配置，devtools不会生效 -->
+                    <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
                     <addResources>true</addResources>
                 </configuration>
             </plugin>

@@ -23,7 +23,7 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping(value = "/add")
-    public CommonResult add(Payment payment) {
+    public CommonResult add(@RequestBody Payment payment) {
         int result = paymentService.save(payment);
         log.info("********插入" + result + "条数据********");
         if (result > 0) {

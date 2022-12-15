@@ -25,6 +25,10 @@ eureka:
     service-url:
       # 设置与 Eureka Server 交互的地址
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  # 不对外暴露主机名称
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true   # 访问路径可显示 IP 地址
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

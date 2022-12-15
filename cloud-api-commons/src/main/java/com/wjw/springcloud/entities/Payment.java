@@ -4,18 +4,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 /**
- * Description: 支付实体类
+ * Description:
  *
  * @author wjw
- * @date 2022年12月14日 15:02
+ * @date 2022年12月15日 10:26
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Payment implements Serializable {
+public class Payment {
     private Long id;
     private String serial;
 }

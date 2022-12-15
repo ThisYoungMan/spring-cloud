@@ -5,10 +5,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Description:
+ * Description: 统一返回实体类
+ *  泛型 T ，调用时传啥就返回啥
  *
  * @author wjw
- * @date 2022年12月14日 22:07
+ * @date 2022年12月15日 10:27
  */
 @Data
 @AllArgsConstructor

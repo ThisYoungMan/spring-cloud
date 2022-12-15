@@ -17,5 +17,5 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  # 所有 Entity 别名类所在包
+  # 所有 Entity 别名类所在包，xml 就不需要写全类名
   type-aliases-package: com.wjw.springcloud.entities
